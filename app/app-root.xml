@@ -9,11 +9,11 @@ http://docs.nativescript.org/cookbook/ui/tab-view
         <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">
+    <TabViewItem title="Map" ios:iconSource="res://tabIcons/search" android:iconSource="res://search">
         <Frame defaultPage="map/map-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="Alerts" ios:iconSource="res://tabIcons/alerts" android:iconSource="res://alerts">
+    <TabViewItem title="Alerts" ios:iconSource="res://tabIcons/comment" android:iconSource="res://comment">
         <Frame defaultPage="alerts/alerts-page"></Frame>
     </TabViewItem>
 
@@ -21,7 +21,7 @@ http://docs.nativescript.org/cookbook/ui/tab-view
         <Frame defaultPage="favorites/favorites-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="Settings" ios:iconSource="res://tabIcons/heart" android:iconSource="res://heart">
+    <TabViewItem title="Settings" ios:iconSource="res://tabIcons/user" android:iconSource="res://user">
         <Frame defaultPage="settings/settings-page"></Frame>
     </TabViewItem>
 </TabView>
