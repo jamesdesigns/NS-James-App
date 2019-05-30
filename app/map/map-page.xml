@@ -1,0 +1,20 @@
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    loaded="pageLoaded"
+    >
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Map"></Label>
+    </ActionBar>
+
+    <!-- <GridLayout class="page-content">
+        <Label class="page-icon fa" text="&#xf1ea;"></Label>
+        <Label class="page-placeholder" text=""></Label>
+    </GridLayout> -->
+
+    <GridLayout>
+        <WebView src="{{ htmlString }}" height="650" />
+    </GridLayout>
+</Page>

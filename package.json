@@ -1,0 +1,29 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.NSJamesApp",
+    "tns-android": {
+      "version": "5.4.0"
+    },
+    "tns-ios": {
+      "version": "5.4.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "scripts": {
+    "lint": "eslint \"app/**/*.js\""
+  },
+  "dependencies": {
+    "nativescript-fontawesome": "^1.0.0",
+    "nativescript-theme-core": "~1.0.4",
+    "tns-core-modules": "~5.4.0"
+  },
+  "devDependencies": {
+    "eslint": "~5.8.0",
+    "nativescript-dev-sass": "~1.7.0",
+    "nativescript-dev-webpack": "~0.22.0"
+  },
+  "gitHead": "c06800e52ee1a184ea2dffd12a6702aaa43be4e3",
+  "readme": "NativeScript Application"
+}
