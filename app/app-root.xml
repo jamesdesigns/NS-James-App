@@ -12,6 +12,9 @@ http://docs.nativescript.org/cookbook/ui/tab-view
     <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">
         <Frame defaultPage="map/map-page"></Frame>
     </TabViewItem>
+    <TabViewItem title="Alerts" ios:iconSource="res://tabIcons/alerts" android:iconSource="res://alerts">
+        <Frame defaultPage="alerts/alerts-page"></Frame>
+    </TabViewItem>
 
     <TabViewItem title="Settings" ios:iconSource="res://tabIcons/heart" android:iconSource="res://heart">
         <Frame defaultPage="settings/settings-page"></Frame>

@@ -1,0 +1,16 @@
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    loaded="pageLoaded"
+    >
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Alerts"></Label>
+    </ActionBar>
+
+    <!-- <GridLayout class="page-content">
+        <Label class="page-icon fa" text="&#xf1ea;"></Label>
+        <Label class="page-placeholder" text=""></Label>
+    </GridLayout> -->
+</Page>
