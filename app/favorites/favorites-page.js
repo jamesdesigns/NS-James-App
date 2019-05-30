@@ -1,4 +1,4 @@
-const FavoritesViewModel = require("./map-view-model");
+const FavoritesViewModel = require("./favorites-view-model");
 
 function onNavigatingTo(args) {
     const component = args.object;
