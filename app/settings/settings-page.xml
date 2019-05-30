@@ -7,9 +7,17 @@
         <Label class="action-bar-title" text="Settings"></Label>
     </ActionBar>
 
-    <GridLayout class="page-content">
+    <!-- <GridLayout class="page-content">
     <Label class="fa" text="{{'fa-bluetooth' | fontawesome }}"></Label> 
         <Label class="page-icon fa" text="&#xf002;"></Label>
-        <Label class="page-placeholder" text="<!-- Settings page content goes here -->"></Label>
-    </GridLayout>
+        <Label class="page-placeholder" text=""></Label>
+    </GridLayout> -->
+
+     <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
+        <ListView.itemTemplate>
+            <StackLayout orientation="horizontal" class="list-group-item">
+                <Label text="{{ name }}" textWrap="true"></Label>
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
 </Page>
